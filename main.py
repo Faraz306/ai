@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCcCT7tWKvOB9b3g5bEW_cO1rYvDd_nWJU")
+genai.configure(api_key="AIzaSyCHhaV1wDTnOS_uDtoZL7CCpvRk6bG3zEU")
 gemini_model = genai.GenerativeModel('models/gemini-3.1-flash-lite-preview')
 st.title("YF Assistant")
 if "chat_history" not in st.session_state:
